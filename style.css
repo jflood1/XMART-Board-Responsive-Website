@@ -1,0 +1,358 @@
+ @import url(<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">);
+ 
+  /* Navbar */
+  .navbar {
+    width: 100%;
+    background-color: #00557a;
+    overflow: auto;
+    }
+
+ .navbar a {
+    float: right;
+    padding: 15px;
+    color: #a6fefc;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+  .navbar a:hover {
+      
+        color: rgb(37, 254, 243);
+        font-size: 40px;
+        font-weight: bolder;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                }
+
+
+
+    @media screen and (max-width: 500px) {
+  .navbar a {
+        float: none;
+        display: block;
+    }
+    }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* Index */
+
+ .container-order{
+            
+    padding: 200px;
+    background-color: rgb(135, 217, 243);
+    
+}
+
+
+.container-order h2{
+    color: rgb(1, 44, 104);
+    font-size: 200px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    text-shadow: #00557a 5px 5px 5px;
+
+}
+.container-order h3{
+    color: rgb(1, 44, 104);
+    font-size: 40px;
+    font-weight: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+
+}
+.container-order p{
+    color: rgb(123, 228, 244);
+    background-color: rgb(1, 44, 104);
+    font-size: 20px;
+    font-weight: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    text-align: center;
+
+}
+.container-order button{
+    font-size: 20px;
+    font-weight: large;
+    color: rgb(84, 237, 237);
+    background-color: rgb(1, 44, 104);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:40%;
+    margin: 40px;
+}
+.container-order button:hover{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(1, 45, 111);
+    background-color:  #dcf022;
+    width:50%;
+}
+
+.modal-content{
+    background-color: rgb(210, 248, 138);
+    font-size: 20px;
+    color: rgb(3, 58, 211);
+}
+
+.modal-dialog{
+    width:600px;
+}
+.modal-footer button{
+    width:200%;
+    color: rgb(165, 201, 255);
+    font-size: large;
+    font-weight: bolder;
+    background-color: rgb(1, 90, 134);
+
+}
+
+ /* Features */
+ .container-feature{
+    background-color: rgb(135, 217, 243);
+    padding: 90px;
+}
+
+.container-feature h2{
+color: rgb(2, 63, 114);
+font-size: 95px;
+font-weight: bolder;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: 40px;
+text-align: center;
+text-shadow: #0457c4 2px 2px 2px;
+
+}
+.H4{
+width: 45%;
+color: rgb(1, 91, 105);
+font-size: 25px;
+font-weight: medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: rgb(214, 245, 171);
+border: 4px solid rgb(1, 49, 183);
+margin: 40px;
+padding: 3px 7px;
+
+/* move search bar to center */
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+table, th, td{
+border: 3px solid rgb(1, 61, 121);
+height: 80px;
+
+}
+
+th{
+background-color: rgb(2, 89, 161);
+color:rgb(133, 240, 248);
+font-size: 20px;
+font-weight: bold;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+text-align: center;
+}
+
+td{
+color:rgb(3, 37, 132);
+font-size: 21px;
+font-family: 'Courier New', Courier, monospace ;
+text-align: center;
+}
+tr:hover{
+background-color: rgb(225, 237, 173);
+
+transition: 1s;
+}
+
+td:hover{
+color: rgb(2, 105, 173);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bolder;
+font-size: x-large;
+font-weight: 30px;
+
+
+}   
+
+ /* Contact Form */
+ .container-contact{
+    padding: 100px;
+    background-color: rgb(135, 217, 243);
+ }
+
+ 
+.container-contact h5{
+    color: rgb(1, 44, 104);
+    font-size: 120px;
+    font-weight: Bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    text-shadow: #014460 2px 2px 2px;
+
+}
+.container-contact p{
+    font-size: 20px;
+    color: rgb(1, 44, 104);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 10px;
+
+}
+.container-contact input{
+    margin-bottom: 30px;
+    font-size: 20px;
+    color:  rgb(1, 44, 104);
+    background-color: rgb(247, 247, 153);
+
+}
+.container-contact textarea{
+    margin-bottom: 30px;
+    font-size: 20px;
+    color:  rgb(1, 44, 104);
+    background-color: rgb(247, 247, 153);
+
+}
+
+.container-contact label{
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:  rgb(1, 43, 121);
+    margin-top: 30px ;
+    
+}
+.container-contact input[type="checkbox"]{
+    transform: scale(1);
+    margin: 15px;
+}
+
+.container-contact .btn-primary{
+    margin: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #a6fefc;
+    background-color: rgb(2, 76, 128);
+    width: 120px;  
+    margin-top: 15px;
+    }
+
+     /* Order */
+     .order{
+        width:400px;
+        height:350px;
+        border-radius: 90%;
+        border:6px solid rgb(1, 61, 107); 
+       
+     }
+  .container-order{
+        
+        background-color: rgb(135, 217, 243);
+        padding: 300px;
+    }
+
+  
+    .container-order h2{
+        color: rgb(1, 44, 104);
+        font-size: 130px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 30px;
+        text-shadow: #00557a 3px 3px 3px;
+
+    }
+    
+    .container-order button{
+        font-size: 30px;
+        font-weight: small;
+        color: rgb(2, 90, 90);
+        background-color: rgb(151, 248, 151);
+        width:30%;
+        text-align: center;
+    }
+    .container-order button:hover{
+        font-size: 30px;
+        font-weight: bolder;
+        color: rgb(1, 112, 112);
+        background-color: rgb(81, 240, 240);
+        width:40%;
+    }
+    
+    .modal-content{
+        background-color: rgb(231, 248, 118);
+        font-size: 20px;
+        color: rgb(2, 53, 129);
+    }
+
+    .modal-dialog{
+        width:600px;
+    }
+    .modal-footer button{
+        width:200%;
+        color: rgb(234, 255, 165);
+        font-size: large;
+        font-weight: bolder;
+        background-color: rgb(1, 90, 134);
+
+
+    }
+    .topnav {
+    overflow: hidden;
+    background-color: #00557a;
+    }
+
+    .topnav a {
+        float: right;
+            padding: 15px;
+            color: #a6fefc;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 100;
+            margin-left: 20px;
+            margin-right: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .topnav a:hover {
+    background-color: #effc76;
+    color: rgb(1, 91, 86);
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+     
+
+    .topnav-right {
+    float: right;
+    }
+
+    footer h6{
+        background-color: rgb(5, 185, 230);
+        padding:25px;
+        width: auto;
+    }
+
+   .footer h6{
+    font-size: 25px;
+    color: rgb(1, 57, 176);
+    padding: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+   }
+
